@@ -1,0 +1,123 @@
+NSGui_Init ()   //NSGui init
+NSGui_Reset ()   //NSGui page clear
+
+int menuelement = 0
+float menuelement_y = 0
+float menuelement_x = 0
+char menuelement_value = 0
+
+gui_scroll = 0
+
+gui1_type = 1
+gui1_acttype = 1
+gui1_x = 15-screen_offset
+gui1_y = 5
+gui1_w = 275
+gui1_h = 14*15+5
+gui1_text = ()
+gui1_cmd = ()
+gui1_file = ()
+gui1_value = ()
+gui1_colorR = 1.0
+gui1_colorG = 1.0
+gui1_colorB = 1.0
+gui1_colorA = 1.0
+gui1_colorinnerR = 0.00
+gui1_colorinnerG = 0.00
+gui1_colorinnerB = 0.00
+gui1_colorinnerA = 0.75
+gui1_fontsize = 1
+gui1_corner = 15
+gui1_col = 1
+gui1_style = 0
+gui1_min = 0
+gui1_max = 32
+gui1_mode = 0
+
+gui2_text = (View distance:)
+gui2_cmd = (setCvar ( sv_viewdistance &gui2_value& ))
+gui2_value = getCvar ("sv_viewdistance")
+
+gui3_text = (Fog model:)
+gui3_cmd = (setCvar ( g_fogModel &gui3_value& ))
+gui3_value = getCvar ("g_fogModel")
+
+gui4_text = (Fog shader:)
+gui4_cmd = (setCvar ( g_fogShader &gui4_value& ))
+gui4_value = getCvar ("g_fogShader")
+
+gui5_text = (Fog distance:)
+gui5_cmd = (setCvar ( g_fogDistance &gui5_value& ))
+gui5_value = getCvar ("g_fogDistance")
+
+gui6_text = (Fog interval:)
+gui6_cmd = (setCvar ( g_fogInterval &gui6_value& ))
+gui6_value = getCvar ("g_fogInterval")
+
+gui7_text = (Fog color red:)
+gui7_cmd = (setCvar ( g_fogColorR &gui7_value& ))
+gui7_value = getCvar ("g_fogColorR")
+
+gui8_text = (Fog color green:)
+gui8_cmd = (setCvar ( g_fogColorG &gui8_value& ))
+gui8_value = getCvar ("g_fogColorG")
+
+gui9_text = (Fog color blue:)
+gui9_cmd = (setCvar ( g_fogColorB &gui9_value& ))
+gui9_value = getCvar ("g_fogColorB")
+
+gui10_text = (Fog intensity:)
+gui10_cmd = (setCvar ( g_fogColorA &gui10_value& ))
+gui10_value = getCvar ("g_fogColorA")
+
+gui11_text = (Sky shader:)
+gui11_cmd = (setCvar ( g_skyShader &gui11_value& ))
+gui11_value = getCvar ("g_skyShader")
+
+gui12_text = (Sky color red:)
+gui12_cmd = (setCvar ( g_skyColorR &gui12_value& ))
+gui12_value = getCvar ("g_skyColorR")
+
+gui13_text = (Sky color green:)
+gui13_cmd = (setCvar ( g_skyColorG &gui13_value& ))
+gui13_value = getCvar ("g_skyColorG")
+
+gui14_text = (Sky color blue:)
+gui14_cmd = (setCvar ( g_skyColorB &gui14_value& ))
+gui14_value = getCvar ("g_skyColorB")
+
+gui15_text = (Sky intensity:)
+gui15_cmd = (setCvar ( g_skyColorA &gui15_value& ))
+gui15_value = getCvar ("g_skyColorA")
+
+menuelement = 1
+menuelement_y = 10
+menuelement_x = 200-screen_offset
+for 14
+menuelement += 1
+setVariable ("gui$menuelement$_type" "4" "TYPE_INT")
+setVariable ("gui$menuelement$_acttype" "1" "TYPE_INT")
+setVariable ("gui$menuelement$_x" "$menuelement_x$" "TYPE_FLOAT")
+setVariable ("gui$menuelement$_y" "$menuelement_y$" "TYPE_FLOAT")
+setVariable ("gui$menuelement$_w" "16" "TYPE_FLOAT")
+setVariable ("gui$menuelement$_h" "10" "TYPE_FLOAT")
+setVariable ("gui$menuelement$_file" "0" "TYPE_CHAR")
+setVariable ("gui$menuelement$_colorR" "1.0" "TYPE_FLOAT")
+setVariable ("gui$menuelement$_colorG" "1.0" "TYPE_FLOAT")
+setVariable ("gui$menuelement$_colorB" "1.0" "TYPE_FLOAT")
+setVariable ("gui$menuelement$_colorA" "1.0" "TYPE_FLOAT")
+setVariable ("gui$menuelement$_colorinnerR" "1.25" "TYPE_FLOAT")
+setVariable ("gui$menuelement$_colorinnerG" "1.25" "TYPE_FLOAT")
+setVariable ("gui$menuelement$_colorinnerB" "1.25" "TYPE_FLOAT")
+setVariable ("gui$menuelement$_colorinnerA" "1.0" "TYPE_FLOAT")
+setVariable ("gui$menuelement$_fontsize" "0.9" "TYPE_FLOAT")
+setVariable ("gui$menuelement$_corner" "2" "TYPE_INT")
+setVariable ("gui$menuelement$_col" "1" "TYPE_INT")
+setVariable ("gui$menuelement$_style" "0" "TYPE_INT")
+setVariable ("gui$menuelement$_min" "0" "TYPE_INT")
+setVariable ("gui$menuelement$_max" "32" "TYPE_INT")
+setVariable ("gui$menuelement$_mode" "0" "TYPE_INT")
+menuelement_y += 15
+endfor
+
+NSGui_Load ()   //NSGui load page

@@ -1,0 +1,170 @@
+default
+{
+	castShadows 1
+	receiveShadows 1
+	sampleSize 16
+	longestCurve 0.000000
+}
+
+0 // ESurfaceType::Face V: 4 I: 6 planar
+{
+	shader textures/metal/mtl_floor02_s
+	lightmapAxis ( -0.000000 -1.000000 -0.000000 )
+}
+
+1 // ESurfaceType::Face V: 4 I: 6 planar
+{
+	shader textures/metal/mtl_floor02_s
+	lightmapAxis ( 0.000000 1.000000 0.000000 )
+}
+
+2 // ESurfaceType::Face V: 4 I: 6 planar
+{
+	shader textures/metal/mtl_floor02_s
+	lightmapAxis ( -0.000000 -0.000000 -1.000000 )
+}
+
+3 // ESurfaceType::Face V: 4 I: 6 planar
+{
+	shader textures/metal/mtl_floor02_s
+	lightmapAxis ( -1.000000 -0.000000 -0.000000 )
+}
+
+4 // ESurfaceType::Face V: 5 I: 9 planar
+{
+	shader textures/metal/mtl_floor02_s
+	lightmapAxis ( -0.000000 -1.000000 -0.000000 )
+}
+
+5 // ESurfaceType::Face V: 5 I: 9 planar
+{
+	shader textures/metal/mtl_floor02_s
+	lightmapAxis ( 0.000000 1.000000 0.000000 )
+}
+
+6 // ESurfaceType::Face V: 4 I: 6 planar
+{
+	shader textures/metal/mtl_floor02_s
+	lightmapAxis ( 1.000000 0.000000 0.000000 )
+}
+
+7 // ESurfaceType::Face V: 5 I: 9 planar
+{
+	shader textures/metal/mtl_floor02_s
+	lightmapAxis ( -0.000000 -1.000000 -0.000000 )
+}
+
+8 // ESurfaceType::Face V: 5 I: 9 planar
+{
+	shader textures/metal/mtl_floor02_s
+	lightmapAxis ( 0.000000 1.000000 0.000000 )
+}
+
+9 // ESurfaceType::Face V: 4 I: 6 planar
+{
+	shader textures/metal/mtl_floor02_s
+	lightmapAxis ( -0.000000 -1.000000 -0.000000 )
+}
+
+10 // ESurfaceType::Face V: 6 I: 12 planar
+{
+	shader textures/metal/mtl_floor02_s
+	lightmapAxis ( -0.000000 -0.000000 -1.000000 )
+}
+
+11 // ESurfaceType::Face V: 6 I: 12 planar
+{
+	shader textures/metal/mtl_floor02_s
+	lightmapAxis ( 0.000000 0.000000 1.000000 )
+}
+
+12 // ESurfaceType::Face V: 4 I: 6 planar
+{
+	shader textures/metal/mtl_floor02_s
+	lightmapAxis ( -1.000000 -0.000000 -0.000000 )
+}
+
+13 // ESurfaceType::Face V: 4 I: 6 planar
+{
+	shader textures/metal/mtl_floor02_s
+	lightmapAxis ( 1.000000 0.000000 0.000000 )
+}
+
+14 // ESurfaceType::Face V: 4 I: 6 planar
+{
+	shader textures/metal/mtl_floor02_s
+	lightmapAxis ( 0.000000 1.000000 0.000000 )
+}
+
+15 // ESurfaceType::Face V: 6 I: 12 planar
+{
+	shader textures/metal/mtl_floor02_s
+	lightmapAxis ( -0.000000 -0.000000 -1.000000 )
+}
+
+16 // ESurfaceType::Face V: 6 I: 12 planar
+{
+	shader textures/metal/mtl_floor02_s
+	lightmapAxis ( 0.000000 0.000000 1.000000 )
+}
+
+17 // ESurfaceType::Face V: 4 I: 6 planar
+{
+	shader textures/metal/mtl_floor02_s
+	lightmapAxis ( -1.000000 -0.000000 -0.000000 )
+}
+
+18 // ESurfaceType::Face V: 4 I: 6 planar
+{
+	shader textures/metal/mtl_floor02_s
+	lightmapAxis ( 1.000000 0.000000 0.000000 )
+}
+
+19 // ESurfaceType::Face V: 4 I: 6 planar
+{
+	shader textures/metal/mtl_floor02_s
+	entity 1
+	castShadows 0
+	lightmapAxis ( -1.000000 -0.000000 -0.000000 )
+}
+
+20 // ESurfaceType::Face V: 4 I: 6 planar
+{
+	shader textures/metal/mtl_floor02_s
+	entity 1
+	castShadows 0
+	lightmapAxis ( 1.000000 0.000000 0.000000 )
+}
+
+21 // ESurfaceType::Face V: 4 I: 6 planar
+{
+	shader textures/metal/mtl_floor02_s
+	entity 1
+	castShadows 0
+	lightmapAxis ( -0.000000 -1.000000 -0.000000 )
+}
+
+22 // ESurfaceType::Face V: 4 I: 6 planar
+{
+	shader textures/metal/mtl_floor02_s
+	entity 1
+	castShadows 0
+	lightmapAxis ( 0.000000 1.000000 0.000000 )
+}
+
+23 // ESurfaceType::Face V: 4 I: 6 planar
+{
+	shader textures/metal/mtl_floor02_s
+	entity 1
+	castShadows 0
+	lightmapAxis ( -0.000000 -0.000000 -1.000000 )
+}
+
+24 // ESurfaceType::Face V: 4 I: 6 planar
+{
+	shader textures/metal/mtl_floor02_s
+	entity 1
+	castShadows 0
+	lightmapAxis ( 0.000000 0.000000 1.000000 )
+}
+

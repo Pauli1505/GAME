@@ -1,0 +1,53 @@
+//Tool ID
+setCvar ("toolgun_tool" "7")
+//Tool modes commands
+setCvar ("toolgun_toolcmd1" "vstr toolcmd_modify")
+setCvar ("toolgun_toolcmd2" "vstr toolcmd_modify2")
+setCvar ("toolgun_toolcmd3" "vstr toolcmd_modify3")
+setCvar ("toolgun_toolcmd4" "vstr toolcmd_modify4")
+//Tool text
+setCvar ("toolgun_tooltext" "Health")
+setCvar ("toolgun_tooltip1" "Sets the HP of an object")
+setCvar ("toolgun_tooltip2" "Change the values")
+setCvar ("toolgun_tooltip3" "in the spawn menu")
+setCvar ("toolgun_tooltip4" " ")
+//Tool mode name
+setCvar ("toolgun_toolmode1" " ")
+setCvar ("toolgun_toolmode2" " ")
+setCvar ("toolgun_toolmode3" " ")
+setCvar ("toolgun_toolmode4" " ")
+
+//Tool properties name
+setCvar ("toolgun_toolset1" "Health:")
+setCvar ("toolgun_toolset2" "--------:")
+setCvar ("toolgun_toolset3" "--------:")
+setCvar ("toolgun_toolset4" "--------:")
+setCvar ("toolgun_toolset5" "--------:")
+setCvar ("toolgun_toolset6" "--------:")
+setCvar ("toolgun_toolset7" "--------:")
+setCvar ("toolgun_toolset8" "--------:")
+setCvar ("toolgun_toolset9" "--------:")
+setCvar ("toolgun_toolset10" "--------:")
+setCvar ("toolgun_toolset11" "--------:")
+setCvar ("toolgun_toolset12" "--------:")
+setCvar ("toolgun_toolset13" "--------:")
+setCvar ("toolgun_toolset14" "--------:")
+setCvar ("toolgun_toolset15" "--------:")
+setCvar ("toolgun_toolset16" "--------:")
+setCvar ("toolgun_toolset17" "--------:")
+setCvar ("toolgun_toolset18" "--------:")
+
+//Tool disabled args
+setCvar ("toolgun_disabledarg1" "0")
+setCvar ("toolgun_disabledarg2" "0")
+setCvar ("toolgun_disabledarg3" "0")
+setCvar ("toolgun_disabledarg4" "0")
+
+//Tool modes toggle
+setCvar ("uitoolmode" "toggle toolgun_mod19 0")
+
+//Tool presets
+setCvar ("tool_modifypreset" "set toolcmd_modify tm %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s 0")
+setCvar ("tool_modifypreset2" "set toolcmd_modify2 tm %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s 1")
+setCvar ("tool_modifypreset3" "set toolcmd_modify3 tm %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s 2")
+setCvar ("tool_modifypreset4" "set toolcmd_modify4 tm %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s 3")

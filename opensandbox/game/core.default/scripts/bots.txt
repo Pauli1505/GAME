@@ -1,0 +1,50 @@
+// Sandbox++ models
+
+// Beret
+{
+name		Beret
+model		beret
+aifile	bots/beret_c.c
+}
+{
+name		Ethan
+model		beret/blue
+aifile	bots/beret_c.c
+}
+{
+name		Alexander
+model		beret/red
+aifile	bots/beret_c.c
+}
+{
+name		Headcrash
+model		beret/headcrash
+aifile	bots/beret_c.c
+}
+{
+name		Henry
+model		beret/macho
+aifile	bots/beret_c.c
+}
+
+// Kyonshi
+{
+name		Kyonshi
+model		kyonshi
+aifile	bots/kyonshi_c.c
+}
+{
+name		Nari
+model		kyonshi/blue
+aifile	bots/kyonshi_c.c
+}
+{
+name		Hana
+model		kyonshi/red
+aifile	bots/kyonshi_c.c
+}
+{
+name		Rin
+model		kyonshi/beh
+aifile	bots/kyonshi_c.c
+}

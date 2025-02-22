@@ -1,0 +1,58 @@
+//gui1_type - object type: 1-button with color rect, 2-button with picture, 3-button with rect and picture, 4-text field, 5-list, 6-3d model, 7-radio button, 8-slider
+//gui1_acttype - activation type: 1-activated, 2-lost focus, 3-got focus
+//gui1_x - x coord value
+//gui1_y - y coord value
+//gui1_w - width value
+//gui1_h - height value
+//gui1_text - display text for type(1,2,3,4,6,7,8); folder for type(5)
+//gui1_cmd - just interpret Noire.Script code
+//gui1_file	- display picture for type(2,3); folder for type(5); model location for type (6)
+//gui1_value - value for type (4,5,7,8)
+//gui1_colorR - text color Red from 0.0 to 1.0
+//gui1_colorG - text color Green from 0.0 to 1.0
+//gui1_colorB - text color Blue from 0.0 to 1.0
+//gui1_colorA - text color Alpha from 0.0 to 1.0
+//gui1_colorinnerR - background color Red from 0.0 to 1.0
+//gui1_colorinnerG - background color Green from 0.0 to 1.0
+//gui1_colorinnerB - background color Blue from 0.0 to 1.0
+//gui1_colorinnerA - background color Alpha from 0.0 to 1.0
+//gui1_fontsize	- font size
+//gui1_corner - corner angle for type (1,3)
+//gui1_col - columns count for type (5)
+//gui1_style - style for type (5): 0-list, 1-list with icons, 2-icons grid
+//gui1_min - minimal value for type (8)
+//gui1_max - maximal value for type (8)
+//gui1_mode	- argument data mode: type (5): 0-selected item name, 1-selected item number; type (7): 0-normal, 1-reverse; type (8): modifier for operations
+
+NSGui_Init ()   //NSGui init
+NSGui_Reset ()   //NSGui page clear
+
+gui_scroll = 0
+
+gui1_type = 4
+gui1_acttype = 1
+gui1_x = 150
+gui1_y = 0
+gui1_w = 32
+gui1_h = 480
+gui1_text = (Command:)
+gui1_cmd = (command (EXEC_INSERT "&gui1_value&"))
+gui1_file = ( )
+gui1_value = (echo Hello World)
+gui1_colorR = 1.0
+gui1_colorG = 1.0
+gui1_colorB = 1.0
+gui1_colorA = 1.0
+gui1_colorinnerR = 0.25
+gui1_colorinnerG = 0.25
+gui1_colorinnerB = 0.25
+gui1_colorinnerA = 1.0
+gui1_fontsize = 1
+gui1_corner = 10
+gui1_col = 1
+gui1_style = 0
+gui1_min = 0
+gui1_max = 32
+gui1_mode = 0
+
+NSGui_Load ()   //NSGui load page

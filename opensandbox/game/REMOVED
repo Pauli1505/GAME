@@ -1,0 +1,49 @@
+Removed things:
+
+ui/ - it's empty
+
+vm/ - it's not needed
+
+demos/ - it's not needed
+
+many files in / except COPYING and CREDITS
+
+music/ - big folder...
+
+video/ - we have our intro
+
+glsl/ - we have built-in shaders
+
+scripts/shaderlist.txt
+scripts/arenas.txt
+scripts/bots.txt
+scripts/*.arena
+scripts/*.bot - we have our files
+
+scripts/q3map2_void3.shader
+scripts/q3map2_void4.shader - what the fuck is this???
+
+scripts/flaretest.shader
+scripts/hotmenu.shader
+scripts/newmenu.shader
+scripts/newmenu2.shader
+scripts/oa_pro_players.shader
+scripts/oaflares.shader
+scripts/iconsprites.shader - deleted
+
+menu/* - NEW MENU IN OS
+
+gfx/2d/bigchars - not used by engine
+
+botfiles/fuzi.c
+botfiles/inv.h
+botfiles/items.c - old botfiles, we have new ones
+
+models/players/* - except kyonshi, beret
+sound/player/* - except root files, kyonshi, beret
+botfiles/bots/* - except kyonshi, beret, default
+scripts/player_* - except kyonshi, beret
+
+maps/* - it's in OpenArena map pack
+levelshots/* - it's in OpenArena map pack
+
